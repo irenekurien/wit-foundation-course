@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	background: #1f1f1f;
+	color: #fff;
+	width: 66%;
+	margin: 0 auto;
+}
+
+.TitleBlock h1 {
+	font-family: 'Lobster', cursive;
+	margin: 4rem 0 1rem;
+	font-size: 3rem;
+}
+
+.TitleBlock__Container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2rem 0;
+	border: 1px solid var(--primary-color);
+	padding: 0.5rem;
+}
+
+.TitleBlock_Description {
+	font-size: 1rem;
+	color: rgb(197, 192, 192);
+	flex: 1;
+}
+
+.TitleBlock_Rating {
+	width: 100%;
+	flex: 1;
+	align-items: center;
+}
+
+span {
+	font-weight: bold;
+	margin-right: 1rem;
+}
+
+.SubNav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2rem 0;
+	height: 2.5rem;
+	padding: 1rem;
+	background: #313131;
+	/* background: linear-gradient(to right, #eee, #4e4a4a); */
+	border-radius: 0.5rem;
+
+	/* horzondal offset 1px
+	vertical offset 2px
+	blur 3px
+	opacity 0.4 */
+	box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+}
+
+.SubNav__Links {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-right: 1rem;
+	transition: all 0.5s ease-in-out;
+}
+
+.SubNav__Links:hover {
+	color: rgb(105, 102, 102);
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-right: 1rem;
+	transition: all 0.5s ease-in-out;
+}
+
+.Media {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 25rem;
+	margin: 2rem 0;
+}
+
+#Media__Poster {
+	height: 100%;
+	width: 100%;
+	flex: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+#Media__Poster:hover {
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+}
+
+#Media__Video {
+	height: 100%;
+	width: 100%;
+	flex: 2;
+}
+
+.Media__SideContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	flex: 0.75;
+}
+
+.Media__SideContainer-Content {
+	background: #313131;
+	width: 100%;
+	margin: 2px;
+	flex: 1;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('assets/images/minnal-murali.png');
+}
+
+.Media__SideContainer-Content:hover {
+	background: #414141;
+	cursor: pointer;
+}
+
+.GenresAndPlot__Genre {
+	display: flex;
+	justify-content: left;
+}
+
+.GenresAndPlot__GenreChip {
+	padding: 0.5rem 1rem;
+	margin: 0.5rem;
+	border: solid 2px #eee;
+	border-radius: 5rem;
+}
+
+.GenresAndPlot__Plot {
+	font-size: 1.2rem;
+	color: #eee;
+	margin: 1rem 0;
+}
+
+.Credits {
+	margin: 1.5rem 0;
+}
+
+.Credits ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+}
+
+.Credits ul li {
+	margin: 0.5rem 0;
+}
+
+.Credits ul li:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.Review {
+	width: 50%;
+	margin: 1.5rem auto;
+}
+
+.Review h2 {
+	font-size: 1.2rem;
+	color: #eee;
+	margin: 2.5rem 0 1rem;
+	text-align: center;
+}
+
+.Review div {
+	margin: 0.5rem 0;
+}
+
+.Review input, textarea {
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.Review__Fields {
+	border-radius: 10px;
+	border: 1px solid #eee;
+	transition: 0.3s border-color;
+}
+
+.Review__Fields:hover {
+	border: 1px solid #aaa;
+}
+
+/* style submit button with on hover  */
+

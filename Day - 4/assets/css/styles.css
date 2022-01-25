@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Source+Serif+Pro:ital,wght@1,900&display=swap');
+
+/* HEADING */
+.home-image {
+    width:65%;
+    height:65%;
+    padding-top: 15%;
+}
+
+
+.home-row {
+    background-color: #FF6363;
+    color: #fff;
+}
+
+
+.home-text {
+    padding: 5% 5% 0%;
+}
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+}
+
+h2 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 3rem;
+}
+
+
+/* MENU */
+.menu-row{
+    text-align: center;
+    padding: 5% 0%;
+    color:#FF6363
+}
+
+
+
+/* FOOTER */
+
+#footer {
+    background-color: #FF6363;
+    text-align: center;
+    color:#fff;
+    padding: 2% 0%;
+}
+
+.media-item{
+    color:#fff;
+}
+
+.media-item:hover {
+    color:bisque;
+    transform: scale(1.1);
+}
